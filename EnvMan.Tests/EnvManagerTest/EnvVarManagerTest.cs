@@ -131,25 +131,25 @@ namespace SFC.EnvMan.Tests
             Assert.AreEqual(this.testUserVarVal, varVal);
         }
 
-        /// <summary>
-        /// Tests the name of the validate variables null var.
-        /// </summary>
-        [Test]
-        [ExpectedException(ExpectedMessage = "Variable Name cannot be blank.")]
-        public void TestValidateVariablesNullVarName()
-        {
-            ////this.variableManager.ValidateVariables(null, null);
-        }
+        ///// <summary>
+        ///// Tests the name of the validate variables null var.
+        ///// </summary>
+        //[Test]
+        //[ExpectedException(ExpectedMessage = "Variable Name cannot be blank.")]
+        //public void TestValidateVariablesNullVarName()
+        //{
+        //    ////this.variableManager.ValidateVariables(null, null);
+        //}
 
-        /// <summary>
-        /// Tests the validate variables empty variable value.
-        /// </summary>
-        [Test]
-        [ExpectedException(ExpectedMessage = "Variable should have a value.")]
-        public void TestValidateVariablesEmptyVarValue()
-        {
-            ////this.variableManager.ValidateVariables(
-            ////    "TestVariable", string.Empty);
-        }
+        ///// <summary>
+        ///// Tests the validate variables empty variable value.
+        ///// </summary>
+        //[Test]
+        //[ExpectedException(ExpectedMessage = "Variable should have a value.")]
+        //public void TestValidateVariablesEmptyVarValue()
+        //{
+        //    ////this.variableManager.ValidateVariables(
+        //    ////    "TestVariable", string.Empty);
+        //}
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D6CD9460-EE2F-43EA-A3BD-441E0B2EB68E}"
 	ProjectSection(SolutionItems) = preProject
@@ -23,6 +23,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvManTest", "EnvMan.Tests\EnvManTest\EnvManTest.csproj", "{6568444E-A2F0-4B7A-AADA-D8C511E0F629}"
 EndProject
 Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "EnvManSetup", "EnvManSetup\EnvManSetup.wixproj", "{F3910A6A-D4DA-4673-8C6C-BB7BD40D65AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvManager.Tests", "EnvMan\EnvManager.Tests2\EnvManager.Tests.csproj", "{CF4883C1-62CA-40AF-BD27-CB441D43F4BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +87,18 @@ Global
 		{F3910A6A-D4DA-4673-8C6C-BB7BD40D65AB}.Release|Mixed Platforms.Build.0 = Release|x86
 		{F3910A6A-D4DA-4673-8C6C-BB7BD40D65AB}.Release|x86.ActiveCfg = Release|x86
 		{F3910A6A-D4DA-4673-8C6C-BB7BD40D65AB}.Release|x86.Build.0 = Release|x86
+		{CF4883C1-62CA-40AF-BD27-CB441D43F4BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF4883C1-62CA-40AF-BD27-CB441D43F4BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF4883C1-62CA-40AF-BD27-CB441D43F4BA}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{CF4883C1-62CA-40AF-BD27-CB441D43F4BA}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{CF4883C1-62CA-40AF-BD27-CB441D43F4BA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CF4883C1-62CA-40AF-BD27-CB441D43F4BA}.Debug|x86.Build.0 = Debug|Any CPU
+		{CF4883C1-62CA-40AF-BD27-CB441D43F4BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF4883C1-62CA-40AF-BD27-CB441D43F4BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF4883C1-62CA-40AF-BD27-CB441D43F4BA}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{CF4883C1-62CA-40AF-BD27-CB441D43F4BA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{CF4883C1-62CA-40AF-BD27-CB441D43F4BA}.Release|x86.ActiveCfg = Release|Any CPU
+		{CF4883C1-62CA-40AF-BD27-CB441D43F4BA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

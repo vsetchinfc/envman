@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/EnvMan/EnvMan/bin
+/EnvMan/EnvMan/obj
+/EnvMan/EnvManager/bin
+/EnvMan/EnvManager/obj
+/EnvMan.Tests/EnvManager.Tests/bin
+/EnvMan.Tests/EnvManager.Tests/obj
+/EnvMan.Tests/EnvManTest/bin
+/EnvMan.Tests/EnvManTest/obj
+/EnvMan.Tests/EnvManagerTest/bin
+/EnvMan.Tests/EnvManagerTest/obj
+/EnvMan.Tests/EnvManager.Tests/EnvManager.Tests.csproj.user
+/packages
+.directory
+.vs
